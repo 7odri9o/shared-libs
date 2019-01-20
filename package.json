@@ -1,7 +1,7 @@
 {
   "name": "shared-libs",
-  "version": "1.0.0",
-  "description": "Shared Libs oferece funções diversas que podem ser usadas em qualquer projeto",
+  "version": "1.0.1",
+  "description": "Shared Libs oferece funções diversas de conversão de objeto que podem ser usadas em qualquer projeto.",
   "main": "index.js",
   "scripts": {
     "test:coverage": "NODE_ENV=test jest --runInBand --coverage --forceExit --detectOpenHandles $(find test -name '*.spec.js')",
