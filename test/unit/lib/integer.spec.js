@@ -1,4 +1,4 @@
-const { integer } = require('../../index')
+const { integer } = require('../../../index')
 
 test('Integer deve conter um propriedade chamada fromString', () => {
   expect(integer).toHaveProperty('fromString')

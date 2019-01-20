@@ -1,7 +1,7 @@
 const moment = require('moment')
 moment.locale('pt-BR')
 
-const { date } = require('../../index')
+const { date } = require('../../../index')
 
 test('date deve conter um propriedade chamada convertToDate', () => {
   expect(date).toHaveProperty('convertToDate')
