@@ -28,3 +28,8 @@ test('quando for enviado a string com a palavra FALSE retornar o valor booleano 
   const booleano = boolean.convertToBoolean('FALSE')
   expect(booleano).toBe(false)
 })
+
+test('quando for enviado a string HAHAHA retornar o valor booleano false', () => {
+  const booleano = boolean.convertToBoolean('HAHAHA')
+  expect(booleano).toBe(false)
+})
