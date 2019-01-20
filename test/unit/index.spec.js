@@ -8,7 +8,11 @@ test('Index deve conter uma propriedade chamada integer', () => {
   expect(index).toHaveProperty('integer')
 });
 
+test('Index deve conter uma propriedade chamada date', () => {
+  expect(index).toHaveProperty('date')
+});
+
 test('Index deve conter uma propriedade chamada integer do tipo function', () => {
-  const { integer } = index
-  expect(typeof integer).toBe('object')
+  const { date } = index
+  expect(typeof date).toBe('object')
 })
