@@ -17,7 +17,7 @@ test('index deve conter uma propriedade chamada boolean do tipo object', () => {
   expect(typeof boolean).toBe('object')
 })
 
-test('Index deve conter uma propriedade chamada date do tipo object', () => {
+test('index deve conter uma propriedade chamada date do tipo object', () => {
   const { date } = index
   expect(typeof date).toBe('object')
 })
