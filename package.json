@@ -1,0 +1,31 @@
+{
+  "name": "shared-libs",
+  "version": "1.0.0",
+  "description": "Shared Libs oferece funções diversas que podem ser usadas em qualquer projeto",
+  "main": "index.js",
+  "scripts": {
+    "test:coverage": "NODE_ENV=test jest --runInBand --coverage --forceExit --detectOpenHandles $(find test -name '*.spec.js')",
+    "test:unit": "NODE_ENV=test jest --coverage --forceExit --detectOpenHandles $(find test/unit -name '*.spec.js')",
+    "test": "npm run test:coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/makingTheWayProphet/shared-libs.git"
+  },
+  "keywords": [
+    "Integer",
+    "Array",
+    "String",
+    "Boolean"
+  ],
+  "author": "Rodrigo Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/makingTheWayProphet/shared-libs/issues"
+  },
+  "homepage": "https://gitlab.com/makingTheWayProphet/shared-libs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
