@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/makingTheWayProphet/shared-libs.git"
+    "url": "git+ssh://git@github.com:7odri9o/shared-libs.git"
   },
   "keywords": [
     "Integer",
@@ -21,9 +21,9 @@
   "author": "Rodrigo Rocha",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/makingTheWayProphet/shared-libs/issues"
+    "url": "https://github.com/7odri9o/shared-libs/issues"
   },
-  "homepage": "https://gitlab.com/makingTheWayProphet/shared-libs#readme",
+  "homepage": "https://github.com/7odri9o/shared-libs#readme",
   "dependencies": {
     "moment": "^2.23.0"
   },
