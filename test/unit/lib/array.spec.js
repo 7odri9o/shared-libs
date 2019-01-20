@@ -17,3 +17,9 @@ test('array deve retornar um array com os mesmos valores enviados porém em posi
     expect(expectedItem).toHaveLength(1)
   })
 })
+
+test('array deve retornar um array com a mesma quantidade de posições do array enviado', () => {
+  const items = [ 1, 2, 3, 4, 5 ]
+  const sortedArray = array.shuffle(items)
+  expect(sortedArray).toHaveLength(items.length)
+})
